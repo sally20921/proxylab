@@ -1,0 +1,19 @@
+###############################################################################
+# Proxy Lab - 15213 / 15513 / 18213 - Carnegie Mellon University              #
+# Instructor: 	Greg Kesden - gkesden@cs.cmu.edu                              #
+# Authors: 	Cory Pruce - cpruce@andrew.cmu.edu                            #
+# 		Jeff Brandon - jdbrando@andrew.cmu.edu                        #
+###############################################################################
+
+This lab was a group assignment during the summer 2014 section of this class.
+
+The goal was to implement a proxy server that accepts requests from clients,
+forwards them to the destination server, recieves and returns the response from
+the destination, and caches the result. All concurrently.
+
+By completing this assignment we learned both about network communication and 
+handling concurrency. 
+
+Jeff did the work for the initial proxy without caching or concurrency while
+Cory worked on designing the cache and concurrency support. When Jeff finished
+the basic proxy he helped Cory debug the cache.
